@@ -1,0 +1,2 @@
+# Generic-Testing-Framework
+This is an web application automation framework developed to minimize the amount of code required to create automated test cases.  Instead, the framework provided a library of functions, which would be called, based on the event types to execute the test case. The goal is to have a framework , which can be used to test all websites, with minimal to no code changes. This framework is under active development
