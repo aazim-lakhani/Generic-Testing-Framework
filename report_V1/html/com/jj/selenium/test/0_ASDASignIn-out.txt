@@ -1,0 +1,152 @@
+SetUp method is calledStarting execution of initializeBrowser()
+Test Case Being executed :Name: /xl/worksheets/sheet1.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml
+testCase.getRow(1) : <xml-fragment r="2" spans="1:10" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:main="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
+  <main:c r="A2" t="s">
+    <main:v>61</main:v>
+  </main:c>
+  <main:c r="B2" t="s">
+    <main:v>69</main:v>
+  </main:c>
+  <main:c r="C2"/>
+  <main:c r="D2" t="s">
+    <main:v>79</main:v>
+  </main:c>
+  <main:c r="E2" t="s">
+    <main:v>70</main:v>
+  </main:c>
+  <main:c r="F2" s="5" t="s">
+    <main:v>82</main:v>
+  </main:c>
+  <main:c r="G2" t="s">
+    <main:v>77</main:v>
+  </main:c>
+  <main:c r="H2" t="s">
+    <main:v>80</main:v>
+  </main:c>
+  <main:c r="J2" t="s">
+    <main:v>93</main:v>
+  </main:c>
+</xml-fragment>
+Cell : Firefox
+Browser: Firefox
+Started execution of initializeFireFox
+Started Executing handleDataInput()
+Field Type : Browser
+Search Element By :  
+Search Element : 
+Started Executing handleDataInput()
+Field Type : TextBox
+Input type is textbox
+Inside findElement
+Searching by IDh-signin-input1
+Ele : org.openqa.selenium.firefox.FirefoxWebElement@b5df6500
+findElement executed.
+Web ELement :[org.openqa.selenium.firefox.FirefoxWebElement@b5df6500]
+Calling addDataInTextBox
+Started executing addDataInTextBox 
+Finished executing addDataInTextBox 
+Started Executing handleDataInput()
+Field Type : TextBox
+Input type is textbox
+Inside findElement
+Searching by IDh-signin-input3
+Ele : org.openqa.selenium.firefox.FirefoxWebElement@42ab0b63
+findElement executed.
+Web ELement :[org.openqa.selenium.firefox.FirefoxWebElement@42ab0b63]
+Calling addDataInTextBox
+Started executing addDataInTextBox 
+Element h-signin-input3 performing action + Enter Password has been made invisble.
+Started Executing handleDataInput()
+Field Type : TextBox
+Input type is textbox
+Inside findElement
+Searching by IDh-signin-input2
+Ele : org.openqa.selenium.firefox.FirefoxWebElement@98fce7fa
+findElement executed.
+Web ELement :[org.openqa.selenium.firefox.FirefoxWebElement@98fce7fa]
+Calling addDataInTextBox
+Started executing addDataInTextBox 
+Finished executing addDataInTextBox 
+Inside findElement
+Searching by IDh-signin-button
+Ele : org.openqa.selenium.firefox.FirefoxWebElement@34baaf4a
+findElement executed.
+Size: 1
+77777777 Inside setSystemOutput
+GenericTestCase.log :SetUp method is calledStarting execution of initializeBrowser()
+Test Case Being executed :Name: /xl/worksheets/sheet1.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml
+testCase.getRow(1) : <xml-fragment r="2" spans="1:10" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:main="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
+  <main:c r="A2" t="s">
+    <main:v>61</main:v>
+  </main:c>
+  <main:c r="B2" t="s">
+    <main:v>69</main:v>
+  </main:c>
+  <main:c r="C2"/>
+  <main:c r="D2" t="s">
+    <main:v>79</main:v>
+  </main:c>
+  <main:c r="E2" t="s">
+    <main:v>70</main:v>
+  </main:c>
+  <main:c r="F2" s="5" t="s">
+    <main:v>82</main:v>
+  </main:c>
+  <main:c r="G2" t="s">
+    <main:v>77</main:v>
+  </main:c>
+  <main:c r="H2" t="s">
+    <main:v>80</main:v>
+  </main:c>
+  <main:c r="J2" t="s">
+    <main:v>93</main:v>
+  </main:c>
+</xml-fragment>
+Cell : Firefox
+Browser: Firefox
+Started execution of initializeFireFox
+Started Executing handleDataInput()
+Field Type : Browser
+Search Element By :  
+Search Element : 
+Started Executing handleDataInput()
+Field Type : TextBox
+Input type is textbox
+Inside findElement
+Searching by IDh-signin-input1
+Ele : org.openqa.selenium.firefox.FirefoxWebElement@b5df6500
+findElement executed.
+Web ELement :[org.openqa.selenium.firefox.FirefoxWebElement@b5df6500]
+Calling addDataInTextBox
+Started executing addDataInTextBox 
+Finished executing addDataInTextBox 
+Started Executing handleDataInput()
+Field Type : TextBox
+Input type is textbox
+Inside findElement
+Searching by IDh-signin-input3
+Ele : org.openqa.selenium.firefox.FirefoxWebElement@42ab0b63
+findElement executed.
+Web ELement :[org.openqa.selenium.firefox.FirefoxWebElement@42ab0b63]
+Calling addDataInTextBox
+Started executing addDataInTextBox 
+Element h-signin-input3 performing action + Enter Password has been made invisble.
+Started Executing handleDataInput()
+Field Type : TextBox
+Input type is textbox
+Inside findElement
+Searching by IDh-signin-input2
+Ele : org.openqa.selenium.firefox.FirefoxWebElement@98fce7fa
+findElement executed.
+Web ELement :[org.openqa.selenium.firefox.FirefoxWebElement@98fce7fa]
+Calling addDataInTextBox
+Started executing addDataInTextBox 
+Finished executing addDataInTextBox 
+Inside findElement
+Searching by IDh-signin-button
+Ele : org.openqa.selenium.firefox.FirefoxWebElement@34baaf4a
+findElement executed.
+Size: 1
+77777777 Inside setSystemOutput
+
+

@@ -1,0 +1,268 @@
+SetUp method is calledStarting execution of initializeBrowser()
+Test Case Being executed :Name: /xl/worksheets/sheet1.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml
+testCase.getRow(1) : <xml-fragment r="2" spans="1:10" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:main="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
+  <main:c r="A2" t="s">
+    <main:v>10</main:v>
+  </main:c>
+  <main:c r="B2" t="s">
+    <main:v>11</main:v>
+  </main:c>
+  <main:c r="D2" t="s">
+    <main:v>12</main:v>
+  </main:c>
+  <main:c r="E2" t="s">
+    <main:v>13</main:v>
+  </main:c>
+  <main:c r="F2" s="3" t="s">
+    <main:v>14</main:v>
+  </main:c>
+  <main:c r="G2" t="s">
+    <main:v>9</main:v>
+  </main:c>
+  <main:c r="H2" t="s">
+    <main:v>15</main:v>
+  </main:c>
+  <main:c r="J2" t="s">
+    <main:v>59</main:v>
+  </main:c>
+</xml-fragment>
+Cell : Chrome
+Browser: Chrome
+Started execution of initializeGoogleChrome
+Started Executing handleDataInput()
+Field Type : Browser
+Search Element By :  
+Search Element : null
+Inside findElement
+findElement executed.
+Size: 1
+Inside findElement
+findElement executed.
+Size: 1
+Inside findElement
+findElement executed.
+Size: 1
+Inside findElement
+findElement executed.
+Size: 1
+Inside findElement
+findElement executed.
+Size: 1
+Started Executing handleDataInput()
+Field Type : TextBox
+Input type is textbox
+Inside findElement
+Searching by IDatg_store_widget_enterSubmit_2
+Ele : org.openqa.selenium.remote.RemoteWebElement@a3d8e23b
+findElement executed.
+Web ELement :[org.openqa.selenium.remote.RemoteWebElement@a3d8e23b]
+Calling addDataInTextBox
+Started executing addDataInTextBox 
+Finished executing addDataInTextBox 
+Inside findElement
+Searching by IDatg_behavior_addItemToCart
+Ele : org.openqa.selenium.remote.RemoteWebElement@a3d8e23c
+findElement executed.
+Size: 1
+Inside findElement
+findElement executed.
+Size: 1
+Inside findElement
+findElement executed.
+Size: 1
+Inside findElement
+findElement executed.
+Size: 1
+Inside findElement
+findElement executed.
+Size: 1
+Inside findElement
+findElement executed.
+Size: 1
+Started Executing handleDataInput()
+Field Type : TextBox
+Input type is textbox
+Inside findElement
+Searching by IDatg_store_widget_enterSubmit_1
+Ele : org.openqa.selenium.remote.RemoteWebElement@a3e52f4b
+findElement executed.
+Web ELement :[org.openqa.selenium.remote.RemoteWebElement@a3e52f4b]
+Calling addDataInTextBox
+Started executing addDataInTextBox 
+Finished executing addDataInTextBox 
+Inside findElement
+Searching by IDatg_behavior_addItemToCart
+Ele : org.openqa.selenium.remote.RemoteWebElement@a3e52f61
+findElement executed.
+Size: 1
+Inside findElement
+findElement executed.
+Size: 1
+Inside findElement
+Searching by IDatg_store_checkout
+Ele : org.openqa.selenium.remote.RemoteWebElement@a3e68979
+findElement executed.
+Size: 1
+Started Executing handleDataInput()
+Field Type : TextBox
+Input type is textbox
+Inside findElement
+Searching by IDatg_store_emailInput
+Ele : org.openqa.selenium.remote.RemoteWebElement@a3e6f93c
+findElement executed.
+Web ELement :[org.openqa.selenium.remote.RemoteWebElement@a3e6f93c]
+Calling addDataInTextBox
+Started executing addDataInTextBox 
+Finished executing addDataInTextBox 
+Started Executing handleDataInput()
+Field Type : TextBox
+Input type is textbox
+Inside findElement
+Searching by IDatg_store_passwordInput
+Ele : org.openqa.selenium.remote.RemoteWebElement@a3e6f93d
+findElement executed.
+Web ELement :[org.openqa.selenium.remote.RemoteWebElement@a3e6f93d]
+Calling addDataInTextBox
+Started executing addDataInTextBox 
+Finished executing addDataInTextBox 
+Inside findElement
+Searching by IDatg_store_checkoutLoginButton
+Ele : org.openqa.selenium.remote.RemoteWebElement@a3e6f93e
+findElement executed.
+Size: 1
+77777777 Inside setSystemOutput
+GenericTestCase.log :SetUp method is calledStarting execution of initializeBrowser()
+Test Case Being executed :Name: /xl/worksheets/sheet1.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml
+testCase.getRow(1) : <xml-fragment r="2" spans="1:10" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:main="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
+  <main:c r="A2" t="s">
+    <main:v>10</main:v>
+  </main:c>
+  <main:c r="B2" t="s">
+    <main:v>11</main:v>
+  </main:c>
+  <main:c r="D2" t="s">
+    <main:v>12</main:v>
+  </main:c>
+  <main:c r="E2" t="s">
+    <main:v>13</main:v>
+  </main:c>
+  <main:c r="F2" s="3" t="s">
+    <main:v>14</main:v>
+  </main:c>
+  <main:c r="G2" t="s">
+    <main:v>9</main:v>
+  </main:c>
+  <main:c r="H2" t="s">
+    <main:v>15</main:v>
+  </main:c>
+  <main:c r="J2" t="s">
+    <main:v>59</main:v>
+  </main:c>
+</xml-fragment>
+Cell : Chrome
+Browser: Chrome
+Started execution of initializeGoogleChrome
+Started Executing handleDataInput()
+Field Type : Browser
+Search Element By :  
+Search Element : null
+Inside findElement
+findElement executed.
+Size: 1
+Inside findElement
+findElement executed.
+Size: 1
+Inside findElement
+findElement executed.
+Size: 1
+Inside findElement
+findElement executed.
+Size: 1
+Inside findElement
+findElement executed.
+Size: 1
+Started Executing handleDataInput()
+Field Type : TextBox
+Input type is textbox
+Inside findElement
+Searching by IDatg_store_widget_enterSubmit_2
+Ele : org.openqa.selenium.remote.RemoteWebElement@a3d8e23b
+findElement executed.
+Web ELement :[org.openqa.selenium.remote.RemoteWebElement@a3d8e23b]
+Calling addDataInTextBox
+Started executing addDataInTextBox 
+Finished executing addDataInTextBox 
+Inside findElement
+Searching by IDatg_behavior_addItemToCart
+Ele : org.openqa.selenium.remote.RemoteWebElement@a3d8e23c
+findElement executed.
+Size: 1
+Inside findElement
+findElement executed.
+Size: 1
+Inside findElement
+findElement executed.
+Size: 1
+Inside findElement
+findElement executed.
+Size: 1
+Inside findElement
+findElement executed.
+Size: 1
+Inside findElement
+findElement executed.
+Size: 1
+Started Executing handleDataInput()
+Field Type : TextBox
+Input type is textbox
+Inside findElement
+Searching by IDatg_store_widget_enterSubmit_1
+Ele : org.openqa.selenium.remote.RemoteWebElement@a3e52f4b
+findElement executed.
+Web ELement :[org.openqa.selenium.remote.RemoteWebElement@a3e52f4b]
+Calling addDataInTextBox
+Started executing addDataInTextBox 
+Finished executing addDataInTextBox 
+Inside findElement
+Searching by IDatg_behavior_addItemToCart
+Ele : org.openqa.selenium.remote.RemoteWebElement@a3e52f61
+findElement executed.
+Size: 1
+Inside findElement
+findElement executed.
+Size: 1
+Inside findElement
+Searching by IDatg_store_checkout
+Ele : org.openqa.selenium.remote.RemoteWebElement@a3e68979
+findElement executed.
+Size: 1
+Started Executing handleDataInput()
+Field Type : TextBox
+Input type is textbox
+Inside findElement
+Searching by IDatg_store_emailInput
+Ele : org.openqa.selenium.remote.RemoteWebElement@a3e6f93c
+findElement executed.
+Web ELement :[org.openqa.selenium.remote.RemoteWebElement@a3e6f93c]
+Calling addDataInTextBox
+Started executing addDataInTextBox 
+Finished executing addDataInTextBox 
+Started Executing handleDataInput()
+Field Type : TextBox
+Input type is textbox
+Inside findElement
+Searching by IDatg_store_passwordInput
+Ele : org.openqa.selenium.remote.RemoteWebElement@a3e6f93d
+findElement executed.
+Web ELement :[org.openqa.selenium.remote.RemoteWebElement@a3e6f93d]
+Calling addDataInTextBox
+Started executing addDataInTextBox 
+Finished executing addDataInTextBox 
+Inside findElement
+Searching by IDatg_store_checkoutLoginButton
+Ele : org.openqa.selenium.remote.RemoteWebElement@a3e6f93e
+findElement executed.
+Size: 1
+77777777 Inside setSystemOutput
+
+

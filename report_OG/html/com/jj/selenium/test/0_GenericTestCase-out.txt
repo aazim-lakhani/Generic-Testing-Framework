@@ -1,0 +1,187 @@
+Starting execution of testCompleteRegistrationTestCase 
+testDataDirectory : [Ljava.io.File;@110c31
+Before setUp() is called
+SetUp method is called
+Starting execution of initializeBrowser()
+Test Case Being executed :Name: /xl/worksheets/sheet1.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml
+testCase.getRow(1) : <xml-fragment r="2" spans="1:10" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:main="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
+  <main:c r="A2" t="s">
+    <main:v>10</main:v>
+  </main:c>
+  <main:c r="B2" t="s">
+    <main:v>11</main:v>
+  </main:c>
+  <main:c r="D2" t="s">
+    <main:v>12</main:v>
+  </main:c>
+  <main:c r="E2" t="s">
+    <main:v>13</main:v>
+  </main:c>
+  <main:c r="F2" s="3" t="s">
+    <main:v>14</main:v>
+  </main:c>
+  <main:c r="G2" t="s">
+    <main:v>9</main:v>
+  </main:c>
+  <main:c r="H2" t="s">
+    <main:v>15</main:v>
+  </main:c>
+  <main:c r="J2" t="s">
+    <main:v>16</main:v>
+  </main:c>
+</xml-fragment>
+Cell : Firefox
+Browser: Firefox
+Started execution of initializeFireFox
+Inside createDirectoryForTestCase() : 
+Test Case: SiteNavigationTestCase_V2
+Before getRow
+Row: <xml-fragment r="2" spans="1:10" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:main="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
+  <main:c r="A2" t="s">
+    <main:v>10</main:v>
+  </main:c>
+  <main:c r="B2" t="s">
+    <main:v>11</main:v>
+  </main:c>
+  <main:c r="D2" t="s">
+    <main:v>12</main:v>
+  </main:c>
+  <main:c r="E2" t="s">
+    <main:v>13</main:v>
+  </main:c>
+  <main:c r="F2" s="3" t="s">
+    <main:v>14</main:v>
+  </main:c>
+  <main:c r="G2" t="s">
+    <main:v>9</main:v>
+  </main:c>
+  <main:c r="H2" t="s">
+    <main:v>15</main:v>
+  </main:c>
+  <main:c r="J2" t="s">
+    <main:v>16</main:v>
+  </main:c>
+</xml-fragment>
+Started Executing handleDataInput()
+Field Type : Browser
+Search Element By :  
+Search Element : null
+Row Count: 2-Go To Home Page 
+Screenshot Path: C:\Selenium\ExternalizeSelenium\screenshot\SiteNavigationTestCase_V2\2-Go To Home Page .jpeg
+Inside takeScreenshot
+Driver: org.openqa.selenium.firefox.FirefoxDriver@1a4181c
+Copying screenshot
+Screenshot copied
+Before getRow
+Row: <xml-fragment r="3" spans="1:10" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:main="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
+  <main:c r="A3" t="s">
+    <main:v>17</main:v>
+  </main:c>
+  <main:c r="B3" t="s">
+    <main:v>39</main:v>
+  </main:c>
+  <main:c r="C3" t="s">
+    <main:v>32</main:v>
+  </main:c>
+  <main:c r="D3" t="s">
+    <main:v>18</main:v>
+  </main:c>
+  <main:c r="H3" t="s">
+    <main:v>15</main:v>
+  </main:c>
+</xml-fragment>
+Inside findElement
+findElement executed.
+Size: 1
+Row Count: 3-Go To Women Category
+Screenshot Path: C:\Selenium\ExternalizeSelenium\screenshot\SiteNavigationTestCase_V2\3-Go To Women Category.jpeg
+Inside takeScreenshot
+Driver: org.openqa.selenium.firefox.FirefoxDriver@1a4181c
+Copying screenshot
+Screenshot copied
+Before getRow
+Row: <xml-fragment r="4" spans="1:10" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:main="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
+  <main:c r="A4" t="s">
+    <main:v>17</main:v>
+  </main:c>
+  <main:c r="B4" t="s">
+    <main:v>30</main:v>
+  </main:c>
+  <main:c r="C4" t="s">
+    <main:v>33</main:v>
+  </main:c>
+  <main:c r="D4" t="s">
+    <main:v>18</main:v>
+  </main:c>
+</xml-fragment>
+Inside findElement
+findElement executed.
+Size: 1
+Before getRow
+Row: <xml-fragment r="5" spans="1:10" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:main="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
+  <main:c r="A5" t="s">
+    <main:v>17</main:v>
+  </main:c>
+  <main:c r="B5" t="s">
+    <main:v>31</main:v>
+  </main:c>
+  <main:c r="C5" t="s">
+    <main:v>35</main:v>
+  </main:c>
+  <main:c r="D5" t="s">
+    <main:v>19</main:v>
+  </main:c>
+  <main:c r="H5" t="s">
+    <main:v>15</main:v>
+  </main:c>
+</xml-fragment>
+Inside findElement
+findElement executed.
+Size: 1
+Row Count: 5-Select Product named Polka Dot Blouse
+Screenshot Path: C:\Selenium\ExternalizeSelenium\screenshot\SiteNavigationTestCase_V2\5-Select Product named Polka Dot Blouse.jpeg
+Inside takeScreenshot
+Driver: org.openqa.selenium.firefox.FirefoxDriver@1a4181c
+Copying screenshot
+Screenshot copied
+Before getRow
+Row: <xml-fragment r="6" spans="1:10" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:main="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
+  <main:c r="A6" t="s">
+    <main:v>17</main:v>
+  </main:c>
+  <main:c r="B6" t="s">
+    <main:v>20</main:v>
+  </main:c>
+  <main:c r="C6" t="s">
+    <main:v>34</main:v>
+  </main:c>
+  <main:c r="D6" t="s">
+    <main:v>19</main:v>
+  </main:c>
+</xml-fragment>
+Inside findElement
+findElement executed.
+Size: 1
+Before getRow
+Row: <xml-fragment r="7" spans="1:10" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:main="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
+  <main:c r="A7" t="s">
+    <main:v>17</main:v>
+  </main:c>
+  <main:c r="B7" t="s">
+    <main:v>21</main:v>
+  </main:c>
+  <main:c r="C7" t="s">
+    <main:v>22</main:v>
+  </main:c>
+  <main:c r="D7" t="s">
+    <main:v>18</main:v>
+  </main:c>
+</xml-fragment>
+Inside findElement
+findElement executed.
+Size: 1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: os.name: 'Windows XP', os.arch: 'x86', os.version: '5.1', java.version: '1.6.0_20'
+Driver info: driver.version: RemoteWebDriver)
+

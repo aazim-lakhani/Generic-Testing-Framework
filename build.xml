@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project name="executeTests" default="generateReport" basedir=".">
+	<property name="src" value="./src" />
+	<property name="lib" value="./lib" />
+	<property name="classes" value="./classes" />
+	<property name="report" value="./report" />
+	<property name="style" value="./style" />
+	<property name="screenshot" value="./screenshot"/>
+	
+	<path id="setClasspath">
+		<pathelement location="${classes}" />
+		<fileset dir="${lib}">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+	
+	<target name="cleanup" description="Ensure a clean build">
+		<delete dir="${classes}" />
+		<delete dir="${screenshot}" />
+		<delete dir="${report}" />
+	</target>
+	
+	<target name="init" depends="cleanup" description="Creates the necessary directories">
+		<mkdir dir="${classes}" />
+		<mkdir dir="${screenshot}"/>
+		<mkdir dir="${report}"/>
+		<mkdir dir="${report}/xml" />
+	</target>
+
+	<target name="compile" depends="init">
+		<!-- This is done coz ANT does not send .properties files (resource bundle's) to the classes directory. -->
+		<copy todir="${classes}">
+		    <fileset dir="src" includes="**/*.xml,**/*.properties,**/*.txt,**/*.ico" />
+		</copy>
+        <javac source="1.5" srcdir="${src}" fork="true" destdir="${classes}"  includeantruntime="no" classpathref="setClasspath" />
+	</target>
+	
+	<target name="initializeTestSuite" description="" depends="compile">
+		<java classname="com.jj.selenium.util.InitializeTestSuite" classpathref="setClasspath" description="" />
+	</target>
+	
+    <target name="generateReport" description="Generates reports for the executed test cases" depends="initializeTestSuite">
+		<junitreport todir="${report}">
+			<fileset dir="${report}/xml">
+				<include name="*.xml" />
+			</fileset>
+			<report format="frames" todir="${report}/html" styledir="${style}" >
+				<param name="TITLE" expression="Regression Test Results"/>
+			</report>
+		</junitreport>
+    </target>
+	
+	<target name="runTestCase">	
+	  	<junit printsummary="yes" haltonfailure="no" showoutput="yes" >
+		  <classpath refid="setClasspath" />
+		  <test name="com.jj.selenium.test.GenericTestCase" haltonfailure="no" todir="${report}/xml" outfile="${xmlFile}" filtertrace="true">
+			  <formatter classname="com.jj.selenium.ant.CustomResultFormatter" extension=".xml" usefile="true"/>
+	      </test>
+		</junit>
+	 </target>
+	
+</project>

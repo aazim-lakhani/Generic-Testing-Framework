@@ -1,0 +1,27 @@
+<html xmlns:lxslt="http://xml.apache.org/xslt" xmlns:stringutils="xalan://org.apache.tools.ant.util.StringUtils">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Unit Test Results: All Errors</title>
+<link rel="stylesheet" type="text/css" title="Style" href="stylesheet.css">
+</head>
+<body onload="open('allclasses-frame.html','classListFrame')">
+<h1>Regression Test Results</h1>
+<table width="100%">
+<tr>
+<td align="left"></td><td align="right">Designed for use with <a href="http://www.junit.org/">JUnit</a> and <a href="http://ant.apache.org/">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h2>All Errors</h2>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Class</th><th>Name</th><th>Status</th><th width="50%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="Error">
+<td><a href="com/jj/selenium/test/0_GenericTestCase.html">GenericTestCase</a></td><td><a name="test"></a><a href="com/jj/selenium/test/0_GenericTestCase.html#test">test</a></td><td>Error</td><td>Element not found in the cache; duration or timeout: 25.03 seconds For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html Build info: version: 'unknown', revision: 'unknown', time: 'unknown' System info: os.name: 'Windows XP', os.arch: 'x86', os.version: '5.1', java.version: '1.6.0_20' Driver info: driver.version: RemoteWebDriver<br>
+<br>
+<code>org.openqa.selenium.StaleElementReferenceException: Element not found in the cache; duration or timeout: 25.03 seconds<br/>For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html<br/>Build info: version: 'unknown', revision: 'unknown', time: 'unknown'<br/>System info: os.name: 'Windows XP', os.arch: 'x86', os.version: '5.1', java.version: '1.6.0_20'<br/>Driver info: driver.version: RemoteWebDriver<br/>	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)<br/>	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:147)<br/>	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:113)<br/>	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:400)<br/>	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:231)<br/>	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:72)<br/>	at com.jj.selenium.pageobject.GenericPageObject.navigateToSomeOtherPage(Unknown Source)<br/>	at com.jj.selenium.pageobject.GenericPageObject.handlePageNavigation(Unknown Source)<br/>	at com.jj.selenium.test.GenericTestCase.test(Unknown Source)<br/>Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element not found in the cache<br/>Build info: version: 'unknown', revision: 'unknown', time: 'unknown'<br/>System info: os.name: 'Windows XP', os.arch: 'x86', os.version: '5.1', java.version: '1.6.0_20'<br/>Driver info: driver.version: unknown<br/>	at <anonymous class>.<anonymous method>(resource://fxdriver/modules/atoms.js:9010)<br/>	at <anonymous class>.<anonymous method>(resource://fxdriver/modules/atoms.js:9464)<br/>	at <anonymous class>.<anonymous method>(file:///C:/DOCUME~1/user/LOCALS~1/Temp/anonymous2654289053314619377webdriver-profile/extensions/fxdriver@googlecode.com/components/nsCommandProcessor.js:256)<br/>	at <anonymous class>.<anonymous method>(file:///C:/DOCUME~1/user/LOCALS~1/Temp/anonymous2654289053314619377webdriver-profile/extensions/fxdriver@googlecode.com/components/nsCommandProcessor.js:305)<br/>	at <anonymous class>.<anonymous method>(resource://fxdriver/modules/utils.js:9466)<br/></code></td><td>44.734</td>
+</tr>
+</table>
+</body>
+</html>

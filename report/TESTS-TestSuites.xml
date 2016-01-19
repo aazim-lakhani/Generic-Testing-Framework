@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="jjpl121" id="0" name="GenericTestCase" package="com.jj.selenium.test" testCase="ASDASignIn" tests="1" time="68.219" timestamp="2012-02-13T11:58:01">
+      <properties>
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.boot.library.path" value="C:\Java\jdk1.6.0_20\jre\bin" />
+
+          <property name="java.vm.version" value="16.3-b01" />
+
+          <property name="ant.library.dir" value="C:\Ant\apache-ant-1.7.1\lib" />
+
+          <property name="ant.version" value="Apache Ant version 1.7.1 compiled on June 27 2008" />
+
+          <property name="ant.java.version" value="1.6" />
+
+          <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+
+          <property name="java.vendor.url" value="http://java.sun.com/" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="classes" value="./classes" />
+
+          <property name="ant.file.executeTests" value="C:\Selenium\ExternalizeSelenium\build.xml" />
+
+          <property name="user.country" value="US" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.os.patch.level" value="Service Pack 2" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="user.dir" value="C:\Selenium\ExternalizeSelenium" />
+
+          <property name="lib" value="./lib" />
+
+          <property name="java.runtime.version" value="1.6.0_20-b02" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="basedir" value="C:\Selenium\ExternalizeSelenium" />
+
+          <property name="java.endorsed.dirs" value="C:\Java\jdk1.6.0_20\jre\lib\endorsed" />
+
+          <property name="os.arch" value="x86" />
+
+          <property name="xmlFile" value="ASDASignIn" />
+
+          <property name="java.io.tmpdir" value="C:\DOCUME~1\user\LOCALS~1\Temp\" />
+
+          <property name="ant.core.lib" value="C:\Selenium\ExternalizeSelenium\lib\ant.jar" />
+
+          <property name="line.separator" value=" " />
+
+          <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+
+          <property name="user.variant" value="" />
+
+          <property name="os.name" value="Windows XP" />
+
+          <property name="ant.home" value="C:\Ant\apache-ant-1.7.1\bin\.." />
+
+          <property name="ant.project.name" value="executeTests" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="java.library.path" value="C:\Java\jdk1.6.0_20\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\NYCO;C:\Java\jdk1.5.0_17\bin;C:\Java\jdk1.5.0_17;C:\Program Files\Android\android-sdk\platform-tools;C:\ATGMobile;C:\oracle\product\10.2.0\db_1\bin;C:\Java\jdk1.6.0_20\bin;C:\Program Files\SemanticDesigns\DMS\Executables;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files\Wave Systems Corp\Dell Preboot Manager\Access Client\v5\;C:\Program Files\TortoiseSVN\bin;C:\Java\jdk1.6.0_20\bin;C:\Ant\apache-ant-1.7.1\bin;C:\Java\jdk1.6.0_20\bin;C:\Ant\apache-ant-1.7.1\bin;C:\Java\jdk1.6.0_20\bin;C:\Ant\apache-ant-1.7.1\bin;C:\Java\jdk1.6.0_20\bin;C:\Ant\apache-ant-1.7.1\bin;C:\Java\jdk1.6.0_20\bin;C:\Ant\apache-ant-1.7.1\bin;C:\Java\jdk1.6.0_20\bin;C:\Ant\apache-ant-1.7.1\bin;C:\Java\jdk1.6.0_20\bin;C:\Ant\apache-ant-1.7.1\bin;C:\Java\jdk1.6.0_20\bin;C:\Ant\apache-ant-1.7.1\bin" />
+
+          <property name="src" value="./src" />
+
+          <property name="java.class.version" value="50.0" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+
+          <property name="os.version" value="5.1" />
+
+          <property name="user.home" value="C:\Documents and Settings\user" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.6" />
+
+          <property name="user.name" value="user" />
+
+          <property name="java.class.path" value="C:\Ant\apache-ant-1.7.1\bin\..\lib\ant-launcher.jar;C:\Oracle\product\11.2.0\dbhome_1\jdbc\lib\ojdbc6.jar;C:\Oracle\product\11.2.0\dbhome_1\jlib\orai18n.jar;C:\Java\jdk1.6.0_20\;C:\Ant\apache-ant-1.7.1\lib\;C:\Ant\apache-ant-1.7.1\lib\;C:\Ant\apache-ant-1.7.1\lib\;C:\Ant\apache-ant-1.7.1\lib\;C:\Ant\apache-ant-1.7.1\lib\;C:\Ant\apache-ant-1.7.1\lib\;C:\Ant\apache-ant-1.7.1\lib\;C:\Ant\apache-ant-1.7.1\lib\;C:\Ant\apache-ant-1.7.1\lib\ant-antlr.jar;C:\Ant\apache-ant-1.7.1\lib\ant-apache-bcel.jar;C:\Ant\apache-ant-1.7.1\lib\ant-apache-bsf.jar;C:\Ant\apache-ant-1.7.1\lib\ant-apache-log4j.jar;C:\Ant\apache-ant-1.7.1\lib\ant-apache-oro.jar;C:\Ant\apache-ant-1.7.1\lib\ant-apache-regexp.jar;C:\Ant\apache-ant-1.7.1\lib\ant-apache-resolver.jar;C:\Ant\apache-ant-1.7.1\lib\ant-commons-logging.jar;C:\Ant\apache-ant-1.7.1\lib\ant-commons-net.jar;C:\Ant\apache-ant-1.7.1\lib\ant-jai.jar;C:\Ant\apache-ant-1.7.1\lib\ant-javamail.jar;C:\Ant\apache-ant-1.7.1\lib\ant-jdepend.jar;C:\Ant\apache-ant-1.7.1\lib\ant-jmf.jar;C:\Ant\apache-ant-1.7.1\lib\ant-jsch.jar;C:\Ant\apache-ant-1.7.1\lib\ant-junit.jar;C:\Ant\apache-ant-1.7.1\lib\ant-launcher.jar;C:\Ant\apache-ant-1.7.1\lib\ant-netrexx.jar;C:\Ant\apache-ant-1.7.1\lib\ant-nodeps.jar;C:\Ant\apache-ant-1.7.1\lib\ant-starteam.jar;C:\Ant\apache-ant-1.7.1\lib\ant-stylebook.jar;C:\Ant\apache-ant-1.7.1\lib\ant-swing.jar;C:\Ant\apache-ant-1.7.1\lib\ant-testutil.jar;C:\Ant\apache-ant-1.7.1\lib\ant-trax.jar;C:\Ant\apache-ant-1.7.1\lib\ant-weblogic.jar;C:\Ant\apache-ant-1.7.1\lib\ant.jar;C:\Ant\apache-ant-1.7.1\lib\xercesImpl.jar;C:\Ant\apache-ant-1.7.1\lib\xml-apis.jar;C:\Java\jdk1.6.0_20\lib\tools.jar" />
+
+          <property name="java.vm.specification.version" value="1.0" />
+
+          <property name="java.home" value="C:\Java\jdk1.6.0_20\jre" />
+
+          <property name="sun.arch.data.model" value="32" />
+
+          <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+
+          <property name="user.language" value="en" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="java.version" value="1.6.0_20" />
+
+          <property name="java.ext.dirs" value="C:\Java\jdk1.6.0_20\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="sun.boot.class.path" value="C:\Java\jdk1.6.0_20\jre\lib\resources.jar;C:\Java\jdk1.6.0_20\jre\lib\rt.jar;C:\Java\jdk1.6.0_20\jre\lib\sunrsasign.jar;C:\Java\jdk1.6.0_20\jre\lib\jsse.jar;C:\Java\jdk1.6.0_20\jre\lib\jce.jar;C:\Java\jdk1.6.0_20\jre\lib\charsets.jar;C:\Java\jdk1.6.0_20\jre\classes" />
+
+          <property name="style" value="./style" />
+
+          <property name="java.vendor" value="Sun Microsystems Inc." />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+
+          <property name="report" value="./report" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="screenshot" value="./screenshot" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+
+      </properties>
+
+      <testcase classname="com.jj.selenium.test.GenericTestCase" name="test" test="ASDASignIn" time="67.953" />
+
+      <system-out><![CDATA[SetUp method is called
+Starting execution of initializeBrowser()
+Test Case Being executed :Name: /xl/worksheets/sheet1.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml
+testCase.getRow(1) : <xml-fragment r="2" spans="1:10" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:main="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
+  <main:c r="A2" t="s">
+    <main:v>61</main:v>
+  </main:c>
+  <main:c r="B2" t="s">
+    <main:v>69</main:v>
+  </main:c>
+  <main:c r="C2"/>
+  <main:c r="D2" t="s">
+    <main:v>79</main:v>
+  </main:c>
+  <main:c r="E2" t="s">
+    <main:v>70</main:v>
+  </main:c>
+  <main:c r="F2" s="5" t="s">
+    <main:v>82</main:v>
+  </main:c>
+  <main:c r="G2" t="s">
+    <main:v>77</main:v>
+  </main:c>
+  <main:c r="H2" t="s">
+    <main:v>80</main:v>
+  </main:c>
+  <main:c r="J2" t="s">
+    <main:v>93</main:v>
+  </main:c>
+</xml-fragment>
+Cell : Firefox
+Browser: Firefox
+Started execution of initializeFireFox
+Started Executing handleDataInput()
+Field Type : Browser
+Search Element By :  
+Search Element : 
+Row Count: 2-Go To Home Page 
+Screenshot Path: C:\Selenium\ExternalizeSelenium\screenshot\ASDASignIn\2-Go To Home Page .jpeg
+Inside takeScreenshot
+Driver: org.openqa.selenium.firefox.FirefoxDriver@145fe3b
+Copying screenshot
+Screenshot copied
+Started Executing handleDataInput()
+Field Type : TextBox
+Input type is textbox
+Inside findElement
+Searching by IDh-signin-input1
+Ele : org.openqa.selenium.firefox.FirefoxWebElement@67b7a267
+findElement executed.
+Web ELement :[org.openqa.selenium.firefox.FirefoxWebElement@67b7a267]
+Calling addDataInTextBox
+Started executing addDataInTextBox 
+Finished executing addDataInTextBox 
+Row Count: 3-Enter User Name
+Screenshot Path: C:\Selenium\ExternalizeSelenium\screenshot\ASDASignIn\3-Enter User Name.jpeg
+Inside takeScreenshot
+Driver: org.openqa.selenium.firefox.FirefoxDriver@145fe3b
+Copying screenshot
+Screenshot copied
+Started Executing handleDataInput()
+Field Type : TextBox
+Input type is textbox
+Inside findElement
+Searching by IDh-signin-input3
+Ele : org.openqa.selenium.firefox.FirefoxWebElement@2e10f427
+findElement executed.
+Web ELement :[org.openqa.selenium.firefox.FirefoxWebElement@2e10f427]
+Calling addDataInTextBox
+Started executing addDataInTextBox 
+Element h-signin-input3 performing action + Enter Password has been made invisble.
+Row Count: 4-Enter Password
+Screenshot Path: C:\Selenium\ExternalizeSelenium\screenshot\ASDASignIn\4-Enter Password.jpeg
+Inside takeScreenshot
+Driver: org.openqa.selenium.firefox.FirefoxDriver@145fe3b
+Copying screenshot
+Screenshot copied
+Started Executing handleDataInput()
+Field Type : TextBox
+Input type is textbox
+Inside findElement
+Searching by IDh-signin-input2
+Ele : org.openqa.selenium.firefox.FirefoxWebElement@1ecf5b55
+findElement executed.
+Web ELement :[org.openqa.selenium.firefox.FirefoxWebElement@1ecf5b55]
+Calling addDataInTextBox
+Started executing addDataInTextBox 
+Finished executing addDataInTextBox 
+Inside findElement
+Searching by IDh-signin-button
+Ele : org.openqa.selenium.firefox.FirefoxWebElement@5d5686cb
+findElement executed.
+Size: 1
+Test Case ASDASignIn has been executed. 
+tearDown() is called
+77777777 Inside setSystemOutput
+]]></system-out>
+
+      <system-err><![CDATA[Hello Error!!! 
+]]></system-err>
+
+  </testsuite>
+</testsuites>

@@ -1,0 +1,354 @@
+SetUp method is calledStarting execution of initializeBrowser()
+Test Case Being executed :Name: /xl/worksheets/sheet1.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml
+testCase.getRow(1) : <xml-fragment r="2" spans="1:10" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:main="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
+  <main:c r="A2" t="s">
+    <main:v>61</main:v>
+  </main:c>
+  <main:c r="B2" t="s">
+    <main:v>69</main:v>
+  </main:c>
+  <main:c r="C2"/>
+  <main:c r="D2" t="s">
+    <main:v>112</main:v>
+  </main:c>
+  <main:c r="E2" t="s">
+    <main:v>70</main:v>
+  </main:c>
+  <main:c r="F2" s="5" t="s">
+    <main:v>71</main:v>
+  </main:c>
+  <main:c r="G2" t="s">
+    <main:v>108</main:v>
+  </main:c>
+  <main:c r="H2" t="s">
+    <main:v>113</main:v>
+  </main:c>
+  <main:c r="J2" t="s">
+    <main:v>120</main:v>
+  </main:c>
+</xml-fragment>
+Cell : IE
+Browser: IE
+Started execution of initializeInternetExplorer
+Started Executing handleDataInput()
+Field Type : Browser
+Search Element By :  
+Search Element : 
+Inside findElement
+findElement executed.
+Size: 1
+Started Executing handleDataInput()
+Field Type : TextBox
+Input type is textbox
+Inside findElement
+Searching by IDatg_store_registerEmailAddress
+Ele : org.openqa.selenium.ie.InternetExplorerElement@38cedb1e
+findElement executed.
+Web ELement :[org.openqa.selenium.ie.InternetExplorerElement@38cedb1e]
+Calling addDataInTextBox
+Started executing addDataInTextBox 
+Finished executing addDataInTextBox 
+Inside findElement
+Searching by IDatg_store_createAccountButton
+Ele : org.openqa.selenium.ie.InternetExplorerElement@3ac4c3aa
+findElement executed.
+Size: 1
+Started Executing handleDataInput()
+Field Type : TextBox
+Input type is textbox
+Inside findElement
+Searching by IDatg_store_registerPassword
+Ele : org.openqa.selenium.ie.InternetExplorerElement@4a37bad
+findElement executed.
+Web ELement :[org.openqa.selenium.ie.InternetExplorerElement@4a37bad]
+Calling addDataInTextBox
+Started executing addDataInTextBox 
+Finished executing addDataInTextBox 
+Started Executing handleDataInput()
+Field Type : TextBox
+Input type is textbox
+Inside findElement
+Searching by IDatg_store_registerRetypePassword
+Ele : org.openqa.selenium.ie.InternetExplorerElement@210b4f0f
+findElement executed.
+Web ELement :[org.openqa.selenium.ie.InternetExplorerElement@210b4f0f]
+Calling addDataInTextBox
+Started executing addDataInTextBox 
+Finished executing addDataInTextBox 
+Started Executing handleDataInput()
+Field Type : TextBox
+Input type is textbox
+Inside findElement
+Searching by IDatg_store_registerFirstName
+Ele : org.openqa.selenium.ie.InternetExplorerElement@4598ea78
+findElement executed.
+Web ELement :[org.openqa.selenium.ie.InternetExplorerElement@4598ea78]
+Calling addDataInTextBox
+Started executing addDataInTextBox 
+Finished executing addDataInTextBox 
+Started Executing handleDataInput()
+Field Type : TextBox
+Input type is textbox
+Inside findElement
+Searching by IDatg_store_registerLastName
+Ele : org.openqa.selenium.ie.InternetExplorerElement@330fe570
+findElement executed.
+Web ELement :[org.openqa.selenium.ie.InternetExplorerElement@330fe570]
+Calling addDataInTextBox
+Started executing addDataInTextBox 
+Finished executing addDataInTextBox 
+Started Executing handleDataInput()
+Field Type : TextBox
+Input type is textbox
+Inside findElement
+Searching by IDatg_store_registerPostalCode
+Ele : org.openqa.selenium.ie.InternetExplorerElement@6b26bed4
+findElement executed.
+Web ELement :[org.openqa.selenium.ie.InternetExplorerElement@6b26bed4]
+Calling addDataInTextBox
+Started executing addDataInTextBox 
+Finished executing addDataInTextBox 
+Started Executing handleDataInput()
+Field Type : DropDownBox
+Inside handleDataInput() 
+Inside findElement
+Searching by IDatg_store_registerGender
+Ele : org.openqa.selenium.ie.InternetExplorerElement@5c389bcc
+findElement executed.
+Inside selectDataFromDropDown
+No of options : 3
+Options Visible Text: Select Gender
+Options Visible Text: Female
+Options Visible Text: Male
+Option Found & Clicked.
+Finished executing selectDataFromDropDown
+Started Executing handleDataInput()
+Field Type : TextBox
+Input type is textbox
+Inside findElement
+Searching by IDatg_store_registerDateOfBirth
+Ele : org.openqa.selenium.ie.InternetExplorerElement@92e3a210
+findElement executed.
+Web ELement :[org.openqa.selenium.ie.InternetExplorerElement@92e3a210]
+Calling addDataInTextBox
+Started executing addDataInTextBox 
+Finished executing addDataInTextBox 
+Started Executing handleDataInput()
+Field Type : DropDownBox
+Inside handleDataInput() 
+Inside findElement
+Searching by IDatg_store_registerReferer
+Ele : org.openqa.selenium.ie.InternetExplorerElement@27d64786
+findElement executed.
+Inside selectDataFromDropDown
+No of options : 7
+Options Visible Text: How did you hear about us?
+Options Visible Text: TV
+Option Found & Clicked.
+Finished executing selectDataFromDropDown
+Inside findElement
+Searching by IDatg_store_createMyAccount
+Ele : org.openqa.selenium.ie.InternetExplorerElement@51e51e05
+findElement executed.
+Size: 1
+Handle Verification is called
+Inside findElement
+findElement executed.
+token.countTokens()6
+Handle verifyData is called
+pageElement.getText() : Email
+salim99@jj.com
+First Name
+Salim
+Last Name
+Lakhani
+ZIP
+or Postal Code
+40005.0
+Gender
+Male
+Birthday
+9/12/1981
+Receive Emails
+No
+Verification succeeded
+End of handleVerification
+77777777 Inside setSystemOutput
+GenericTestCase.log :SetUp method is calledStarting execution of initializeBrowser()
+Test Case Being executed :Name: /xl/worksheets/sheet1.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml
+testCase.getRow(1) : <xml-fragment r="2" spans="1:10" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:main="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
+  <main:c r="A2" t="s">
+    <main:v>61</main:v>
+  </main:c>
+  <main:c r="B2" t="s">
+    <main:v>69</main:v>
+  </main:c>
+  <main:c r="C2"/>
+  <main:c r="D2" t="s">
+    <main:v>112</main:v>
+  </main:c>
+  <main:c r="E2" t="s">
+    <main:v>70</main:v>
+  </main:c>
+  <main:c r="F2" s="5" t="s">
+    <main:v>71</main:v>
+  </main:c>
+  <main:c r="G2" t="s">
+    <main:v>108</main:v>
+  </main:c>
+  <main:c r="H2" t="s">
+    <main:v>113</main:v>
+  </main:c>
+  <main:c r="J2" t="s">
+    <main:v>120</main:v>
+  </main:c>
+</xml-fragment>
+Cell : IE
+Browser: IE
+Started execution of initializeInternetExplorer
+Started Executing handleDataInput()
+Field Type : Browser
+Search Element By :  
+Search Element : 
+Inside findElement
+findElement executed.
+Size: 1
+Started Executing handleDataInput()
+Field Type : TextBox
+Input type is textbox
+Inside findElement
+Searching by IDatg_store_registerEmailAddress
+Ele : org.openqa.selenium.ie.InternetExplorerElement@38cedb1e
+findElement executed.
+Web ELement :[org.openqa.selenium.ie.InternetExplorerElement@38cedb1e]
+Calling addDataInTextBox
+Started executing addDataInTextBox 
+Finished executing addDataInTextBox 
+Inside findElement
+Searching by IDatg_store_createAccountButton
+Ele : org.openqa.selenium.ie.InternetExplorerElement@3ac4c3aa
+findElement executed.
+Size: 1
+Started Executing handleDataInput()
+Field Type : TextBox
+Input type is textbox
+Inside findElement
+Searching by IDatg_store_registerPassword
+Ele : org.openqa.selenium.ie.InternetExplorerElement@4a37bad
+findElement executed.
+Web ELement :[org.openqa.selenium.ie.InternetExplorerElement@4a37bad]
+Calling addDataInTextBox
+Started executing addDataInTextBox 
+Finished executing addDataInTextBox 
+Started Executing handleDataInput()
+Field Type : TextBox
+Input type is textbox
+Inside findElement
+Searching by IDatg_store_registerRetypePassword
+Ele : org.openqa.selenium.ie.InternetExplorerElement@210b4f0f
+findElement executed.
+Web ELement :[org.openqa.selenium.ie.InternetExplorerElement@210b4f0f]
+Calling addDataInTextBox
+Started executing addDataInTextBox 
+Finished executing addDataInTextBox 
+Started Executing handleDataInput()
+Field Type : TextBox
+Input type is textbox
+Inside findElement
+Searching by IDatg_store_registerFirstName
+Ele : org.openqa.selenium.ie.InternetExplorerElement@4598ea78
+findElement executed.
+Web ELement :[org.openqa.selenium.ie.InternetExplorerElement@4598ea78]
+Calling addDataInTextBox
+Started executing addDataInTextBox 
+Finished executing addDataInTextBox 
+Started Executing handleDataInput()
+Field Type : TextBox
+Input type is textbox
+Inside findElement
+Searching by IDatg_store_registerLastName
+Ele : org.openqa.selenium.ie.InternetExplorerElement@330fe570
+findElement executed.
+Web ELement :[org.openqa.selenium.ie.InternetExplorerElement@330fe570]
+Calling addDataInTextBox
+Started executing addDataInTextBox 
+Finished executing addDataInTextBox 
+Started Executing handleDataInput()
+Field Type : TextBox
+Input type is textbox
+Inside findElement
+Searching by IDatg_store_registerPostalCode
+Ele : org.openqa.selenium.ie.InternetExplorerElement@6b26bed4
+findElement executed.
+Web ELement :[org.openqa.selenium.ie.InternetExplorerElement@6b26bed4]
+Calling addDataInTextBox
+Started executing addDataInTextBox 
+Finished executing addDataInTextBox 
+Started Executing handleDataInput()
+Field Type : DropDownBox
+Inside handleDataInput() 
+Inside findElement
+Searching by IDatg_store_registerGender
+Ele : org.openqa.selenium.ie.InternetExplorerElement@5c389bcc
+findElement executed.
+Inside selectDataFromDropDown
+No of options : 3
+Options Visible Text: Select Gender
+Options Visible Text: Female
+Options Visible Text: Male
+Option Found & Clicked.
+Finished executing selectDataFromDropDown
+Started Executing handleDataInput()
+Field Type : TextBox
+Input type is textbox
+Inside findElement
+Searching by IDatg_store_registerDateOfBirth
+Ele : org.openqa.selenium.ie.InternetExplorerElement@92e3a210
+findElement executed.
+Web ELement :[org.openqa.selenium.ie.InternetExplorerElement@92e3a210]
+Calling addDataInTextBox
+Started executing addDataInTextBox 
+Finished executing addDataInTextBox 
+Started Executing handleDataInput()
+Field Type : DropDownBox
+Inside handleDataInput() 
+Inside findElement
+Searching by IDatg_store_registerReferer
+Ele : org.openqa.selenium.ie.InternetExplorerElement@27d64786
+findElement executed.
+Inside selectDataFromDropDown
+No of options : 7
+Options Visible Text: How did you hear about us?
+Options Visible Text: TV
+Option Found & Clicked.
+Finished executing selectDataFromDropDown
+Inside findElement
+Searching by IDatg_store_createMyAccount
+Ele : org.openqa.selenium.ie.InternetExplorerElement@51e51e05
+findElement executed.
+Size: 1
+Handle Verification is called
+Inside findElement
+findElement executed.
+token.countTokens()6
+Handle verifyData is called
+pageElement.getText() : Email
+salim99@jj.com
+First Name
+Salim
+Last Name
+Lakhani
+ZIP
+or Postal Code
+40005.0
+Gender
+Male
+Birthday
+9/12/1981
+Receive Emails
+No
+Verification succeeded
+End of handleVerification
+77777777 Inside setSystemOutput
+
+
